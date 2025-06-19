@@ -61,12 +61,12 @@ const Contact = () => {
                 Connect with me professionally
               </p>
               <a
-                href="https://linkedin.com/in/esther-margaret"
+                href="https://www.linkedin.com/in/esther-margaret-wairimu-283a41245"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 font-medium hover:text-blue-700 transition-colors"
               >
-                linkedin.com/in/esther-margaret
+                linkedin.com/in/esther-margaret-wairimu
               </a>
             </div>
           </div>

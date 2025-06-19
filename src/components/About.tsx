@@ -4,8 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 const About = () => {
   const handleDownloadCV = () => {
-    // Replace this URL with your actual CV PDF link
-    const cvUrl = "https://example.com/your-cv.pdf";
+    const cvUrl = "/CV.pdf";
     window.open(cvUrl, "_blank");
   };
 
@@ -68,7 +67,7 @@ const About = () => {
                 <div className="text-gray-300">Technologies Mastered</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">3+</div>
+                <div className="text-3xl font-bold text-orange-500">2+</div>
                 <div className="text-gray-300">Years of Experience</div>
               </div>
             </div>

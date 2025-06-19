@@ -140,7 +140,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-200 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600">
-          <div>Copyright © 2024 Esther. All Rights Reserved.</div>
+          <div>Copyright © 2025 Esther. All Rights Reserved.</div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-orange-500 transition-colors">
               User Terms & Conditions
