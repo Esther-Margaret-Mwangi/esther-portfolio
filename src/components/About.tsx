@@ -1,77 +1,88 @@
-
-import React from 'react';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const About = () => {
+  const handleDownloadCV = () => {
+    // Replace this URL with your actual CV PDF link
+    const cvUrl = "https://example.com/your-cv.pdf";
+    window.open(cvUrl, "_blank");
+  };
+
   return (
-    <section id="about" className="py-16 bg-green-800 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section id="about" className="py-20 gradient-bg text-white">
+      <div className="container mx-auto px-4">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Left - Image */}
           <div className="relative">
-            <div className="w-80 h-80 bg-orange-400 rounded-full mx-auto relative overflow-hidden">
-              <img 
-                src="/lovable-uploads/photo-1581091226825-a6a2a5aee158" 
-                alt="Esther Mwangi"
+            <div className="w-80 h-80 bg-orange-500 rounded-full mx-auto relative overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=400&fit=crop&crop=face"
+                alt="Esther Margaret"
                 className="w-full h-full object-cover"
               />
-              
-              {/* Floating skill badges */}
-              <div className="absolute top-8 -left-4 bg-orange-400 text-white px-3 py-1 rounded-full text-sm">
+
+              {/* Floating Skills */}
+              <div className="absolute top-8 left-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm">
                 UI/UX Design
               </div>
-              <div className="absolute top-16 right-8 bg-white text-green-800 px-3 py-1 rounded-full text-sm">
-                Mobile App Design
+              <div className="absolute bottom-12 right-4 bg-green-800 text-white px-3 py-1 rounded-full text-sm">
+                React.js
               </div>
-              <div className="absolute bottom-16 -right-8 bg-orange-400 text-white px-3 py-1 rounded-full text-sm">
-                Website Design
+              <div className="absolute left-8 bottom-8 bg-orange-500 text-white px-3 py-1 rounded-full text-sm">
+                Python
               </div>
-              <div className="absolute bottom-8 -left-8 bg-green-700 text-white px-3 py-1 rounded-full text-sm">
-                Design Systems
+              <div className="absolute right-8 top-12 bg-green-800 text-white px-3 py-1 rounded-full text-sm">
+                Figma
               </div>
-              <div className="absolute top-1/2 -left-12 bg-white text-green-800 px-3 py-1 rounded-full text-sm">
-                Prototyping
-              </div>
-              <div className="absolute bottom-1/3 right-12 bg-orange-400 text-white px-3 py-1 rounded-full text-sm">
-                Frontend Development
+              <div className="absolute top-1/2 left-2 bg-orange-500 text-white px-3 py-1 rounded-full text-sm">
+                JavaScript
               </div>
             </div>
           </div>
-          
-          <div className="space-y-8">
+
+          {/* Right - Content */}
+          <div className="space-y-6">
             <div>
-              <p className="text-orange-400 font-medium mb-2">~ About Me</p>
-              <h2 className="text-4xl font-bold mb-6">
-                Who is <span className="text-orange-400">Esther Mwangi?</span>
+              <span className="text-orange-500 font-medium">~ About Me</span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2">
+                Who is <span className="text-orange-500">Esther Margaret?</span>
               </h2>
-              <p className="text-gray-200 text-lg">
-                Passionate and versatile Software Developer with hands-on experience in UI/UX design, 
-                and a growing foundation in AI & Machine Learning, and .Net.js. Skilled in Front-end 
-                development with React.js and GraphQL.
-              </p>
             </div>
-            
-            <div className="grid grid-cols-3 gap-8">
-              <div>
-                <div className="text-3xl font-bold text-orange-400">50+</div>
-                <div className="text-gray-200">Projects Completed</div>
+
+            <p className="text-gray-300 text-lg">
+              Passionate and versatile Frontend Developer with hands-on
+              experience in UI/UX design, and a growing foundation in AI &
+              Machine Learning. Skilled in frontend development with React.js
+              and modern web technologies, alongside practical knowledge in
+              computer networking, system configuration, and maintenance.
+            </p>
+
+            <div className="grid grid-cols-3 gap-8 py-8">
+              <div className="text-center">
+                <div className="text-3xl font-bold text-orange-500">15+</div>
+                <div className="text-gray-300">Projects Completed</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-orange-400">15+</div>
-                <div className="text-gray-200">Industry Covered</div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-orange-500">5+</div>
+                <div className="text-gray-300">Technologies Mastered</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-orange-400">3+</div>
-                <div className="text-gray-200">Years of Experience</div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-orange-500">3+</div>
+                <div className="text-gray-300">Years of Experience</div>
               </div>
             </div>
-            
-            <div className="flex space-x-4">
-              <Button className="bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded-full flex items-center space-x-2">
-                <span>Download CV</span>
-                <span>→</span>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button
+                onClick={handleDownloadCV}
+                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full flex items-center gap-2"
+              >
+                Download CV
+                <ArrowRight className="w-4 h-4" />
               </Button>
-              <div className="text-orange-400 text-2xl font-script">
-                Esther Mwangi
+              <div className="text-orange-500 font-medium text-lg italic">
+                Esther Margaret
               </div>
             </div>
           </div>

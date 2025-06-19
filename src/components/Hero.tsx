@@ -1,75 +1,115 @@
-
-import React from 'react';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
+  const scrollToPortfolio = () => {
+    const element = document.getElementById("projects");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToContact = () => {
+    const element = document.getElementById("contact");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <section id="home" className="bg-white py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
+    <section id="home" className="pt-20 min-h-screen hero-gradient">
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Left Content */}
+          <div className="space-y-6 animate-fade-in">
             <div className="inline-block">
-              <div className="bg-orange-100 text-orange-600 px-4 py-2 rounded-lg text-sm font-medium border-2 border-dashed border-orange-300">
+              <span className="px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-medium">
                 👋 Hello There!
-              </div>
+              </span>
             </div>
-            
+
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900">
-                I'm <span className="text-orange-400">Esther Mwangi</span>,
-              </h1>
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-                Software Developer &
-              </h2>
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-                UI/UX Designer
-              </h2>
-              <h3 className="text-2xl text-gray-900">
+              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+                I'm <span className="text-orange-500">Esther Margaret</span>,
+                <br />
+                Software Developer
+                <br />
                 Based in Kenya.
-              </h3>
+              </h1>
+
+              <p className="text-gray-600 text-lg max-w-md">
+                I'm a passionate Software Developer with 3+ years in the field,
+                collaborating with various companies and creating innovative
+                solutions.
+              </p>
             </div>
-            
-            <p className="text-gray-600 text-lg max-w-md">
-              I'm an experienced Software Developer with 3+ years in the field, collaborating with various companies and startups.
-            </p>
-            
-            <div className="flex space-x-4">
-              <Button className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full flex items-center space-x-2">
-                <span>View My Portfolio</span>
-                <div className="w-6 h-6 bg-orange-400 rounded-full flex items-center justify-center">
-                  <span className="text-white">▶</span>
-                </div>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button
+                onClick={scrollToPortfolio}
+                className="bg-green-800 hover:bg-green-900 text-white px-8 py-3 rounded-full flex items-center gap-2"
+              >
+                View My Portfolio
+                <ArrowRight className="w-4 h-4" />
               </Button>
-              
-              <Button variant="outline" className="border-gray-300 text-gray-700 px-8 py-3 rounded-full hover:bg-gray-50">
+              <Button
+                onClick={scrollToContact}
+                variant="outline"
+                className="border-gray-300 px-8 py-3 rounded-full"
+              >
                 Hire Me
               </Button>
             </div>
           </div>
-          
-          <div className="relative">
+
+          {/* Right Content - Profile Image */}
+          <div className="relative animate-fade-in">
             <div className="relative">
-              <div className="w-80 h-80 bg-orange-400 rounded-full mx-auto relative overflow-hidden">
-                <img 
-                  src="/lovable-uploads/photo-1581091226825-a6a2a5aee158" 
-                  alt="Esther Mwangi"
+              {/* Orange Circle Background */}
+              <div className="w-80 h-80 bg-orange-500 rounded-full mx-auto relative overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop&crop=face"
+                  alt="Esther Margaret"
                   className="w-full h-full object-cover"
                 />
               </div>
-              
-              {/* Floating badges */}
-              <div className="absolute top-4 right-4 bg-green-700 text-white px-3 py-1 rounded-full text-sm font-medium">
-                Me & AI
+
+              {/* Floating Tags */}
+              <div className="absolute top-4 right-4 bg-green-800 text-white px-3 py-1 rounded-full text-sm">
+                3+ Years Experience
               </div>
-              
-              <div className="absolute top-1/2 -right-4 bg-orange-400 text-white px-4 py-2 rounded-full text-sm font-medium">
+              <div className="absolute bottom-8 left-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm">
                 UI/UX Designer
               </div>
-              
-              <div className="absolute bottom-16 -left-4 bg-green-700 text-white px-4 py-2 rounded-full text-sm font-medium">
+              <div className="absolute left-8 top-1/2 bg-green-800 text-white px-3 py-1 rounded-full text-sm">
                 Software Developer
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scrolling Services Banner */}
+      <div className="bg-orange-500 py-4 overflow-hidden">
+        <div className="flex animate-scroll whitespace-nowrap">
+          <div className="flex items-center space-x-8 text-white font-medium">
+            <span>Frontend Development</span>
+            <span>✱</span>
+            <span>UI/UX Design</span>
+            <span>✱</span>
+            <span>Application Design</span>
+            <span>✱</span>
+            <span>Web Development</span>
+            <span>✱</span>
+            <span>Wireframes</span>
+            <span>✱</span>
+            <span>Frontend Development</span>
+            <span>✱</span>
+            <span>UI/UX Design</span>
+            <span>✱</span>
+            <span>Application Design</span>
+            <span>✱</span>
           </div>
         </div>
       </div>
