@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Github, Figma, X } from "lucide-react";
@@ -21,17 +20,22 @@ const Projects = () => {
       category: ["UI/UX Design", "App Design", "Wireframe"],
       description:
         "Agritech mobile solution offering AI-powered plant disease diagnosis, soil testing, and fertilizer recommendation for smallholder farmers.",
-      detailedDescription: "A comprehensive agritech mobile application designed to empower smallholder farmers with cutting-edge technology. The app features AI-powered plant disease diagnosis using computer vision, real-time soil testing capabilities, and personalized fertilizer recommendations based on soil conditions and crop types.",
+      detailedDescription:
+        "A smart agriculture mobile application designed to empower smallholder farmers with digital tools for improved crop management. The app integrates AI-powered plant disease diagnosis, soil testing services, and intelligent fertilizer recommendations. It guides users through a clean, intuitive interface with clear calls to action and a seamless onboarding experience. The app features user authentication, photo-based plant diagnosis, form-based soil testing submissions, and instant results with tailored recommendations. The design promotes clarity and trust, with a focus on functional simplicity and agricultural relevance.The end goal was to provide farmers with a self-service tool that bridges the gap between modern agritech and traditional farming, enabling informed decision-making through digital convenience.",
       keyFeatures: [
         "AI-powered plant disease detection",
         "Soil nutrient analysis",
         "Fertilizer recommendation engine",
-        "Weather forecasting integration",
-        "Farmer community forum"
+        "Farmer community forum",
       ],
-      technologies: ["React Native", "Python", "TensorFlow", "Firebase"],
-      githubLink: "https://github.com/esthermargaret/shambah-solutions",
-      figmaLink: "https://figma.com/design/shambah-solutions"
+      technologies: [
+        "Figma",
+        "UI Design System for Agri-based Products",
+        "Wireframing & Interactive Prototyping",
+        "Usability Testing & Feedback Integration",
+      ],
+      githubLink: "#",
+      figmaLink: "#",
     },
     {
       image: "/Farm smart dashboard.jpg",
@@ -44,17 +48,20 @@ const Projects = () => {
       ],
       description:
         "AI-powered farm intelligence platform that provides real-time soil analysis and fertilizer recommendations using NPK and pH values for optimized crop yield.",
-      detailedDescription: "An intelligent farm management dashboard that revolutionizes agricultural decision-making through data-driven insights. The platform integrates IoT sensors for real-time monitoring and provides actionable recommendations for optimal crop management.",
+      detailedDescription:
+        "An AI-powered farm intelligence dashboard developed to help farmers make data-driven decisions. This web-based platform provides tools for predicting soil organic carbon levels, recommending appropriate fertilizers, and offering region-specific agricultural advice tailored to Kenyan counties. The dashboard is designed with a clean, intuitive interface to simplify complex agricultural data and make insights accessible to users with varying technical backgrounds.",
       keyFeatures: [
         "Real-time soil monitoring",
         "NPK and pH analysis",
         "Crop yield predictions",
-        "Irrigation scheduling",
-        "Cost optimization tools"
       ],
-      technologies: ["React.js", "Node.js", "MongoDB", "Chart.js"],
-      githubLink: "https://github.com/esthermargaret/smart-farm-dashboard",
-      figmaLink: "https://figma.com/design/smart-farm-dashboard"
+      technologies: [
+        "React.js",
+        "Python & Machine Learning Models (for prediction logic)",
+        "Tailwind CSS",
+      ],
+      githubLink: "#",
+      figmaLink: "#",
     },
     {
       image: "/Cremah1.png",
@@ -62,17 +69,22 @@ const Projects = () => {
       category: ["UI/UX Design", "App Design", "Wireframe"],
       description:
         "Mobile app design for a coffee shop featuring real-time offers, categorized menu items, and a user-friendly shopping experience optimized for fast checkouts.",
-      detailedDescription: "A modern coffee shop mobile application that enhances the customer experience through intuitive design and seamless functionality. The app focuses on speed, convenience, and personalization for coffee enthusiasts.",
+      detailedDescription:
+        "An intuitive e-commerce mobile application crafted for a specialty coffee shop brand. The app features a visually appealing interface with smooth navigation through categories such as cappuccino, latte, espresso, and mocha. Key features include personalized offers, dynamic pricing, product browsing, add-to-cart functionality, and a seamless checkout experience. The design emphasizes accessibility, convenience, and brand consistency to enhance user engagement and drive conversions. The layout is optimized for mobile devices, combining warm color schemes with high-quality imagery to create a cozy, café-like feel. The project includes user authentication, onboarding, and interactive elements to elevate the digital coffee ordering experience.",
       keyFeatures: [
         "Real-time promotional offers",
         "Menu categorization and filtering",
         "Quick checkout process",
-        "Loyalty rewards system",
-        "Order tracking and notifications"
+        "Order tracking and notifications",
       ],
-      technologies: ["React Native", "Redux", "Stripe API", "Firebase"],
-      githubLink: "https://github.com/esthermargaret/cremah-coffee-app",
-      figmaLink: "https://figma.com/design/cremah-coffee-app"
+      technologies: [
+        "Figma",
+        "UX Research & Competitive Analysis",
+        "User Flow Mapping",
+        "Interactive Prototyping",
+      ],
+      githubLink: "#",
+      figmaLink: "#",
     },
     {
       image: "/fraudshield.png",
@@ -80,17 +92,21 @@ const Projects = () => {
       category: ["UI/UX Design", "Web Design", "Wireframe"],
       description:
         "Modern UI/UX design for a credit card fraud detection platform that prioritizes user safety with AI-driven threat alerts and customizable fraud prevention services.",
-      detailedDescription: "A comprehensive fraud detection platform that leverages machine learning algorithms to protect users from credit card fraud. The system provides real-time monitoring, intelligent alerts, and customizable security settings.",
+      detailedDescription:
+        "A modern and secure credit card fraud detection website designed in Figma. FraudShield offers real-time protection through AI-driven analysis, alert systems, and customizable rule configurations to protect both individuals and businesses from suspicious financial activity. The design emphasizes trust, professionalism, and clarity, with a strong visual hierarchy and user-centered layout.",
       keyFeatures: [
         "Real-time fraud detection",
         "AI-powered threat analysis",
-        "Customizable security alerts",
+        "Security alerts",
         "Transaction monitoring",
-        "Risk assessment dashboard"
+        "Risk assessment dashboard",
       ],
-      technologies: ["React.js", "Python", "Scikit-learn", "PostgreSQL"],
-      githubLink: "https://github.com/esthermargaret/fraudshield",
-      figmaLink: "https://figma.com/design/fraudshield"
+      technologies: [
+        "Figma (UI Design & Wireframes)",
+        "UX Research (User Journey Mapping & Use Case Scenarios)",
+      ],
+      githubLink: "#",
+      figmaLink: "#",
     },
   ];
 
@@ -126,7 +142,7 @@ const Projects = () => {
                   alt={project.title}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div 
+                <div
                   className="absolute top-4 right-4 w-10 h-10 bg-green-800 rounded-full flex items-center justify-center hover:bg-green-900 transition-colors"
                   onClick={() => handleProjectClick(project)}
                 >
@@ -154,7 +170,10 @@ const Projects = () => {
       </div>
 
       {/* Project Details Modal */}
-      <Dialog open={selectedProject !== null} onOpenChange={() => setSelectedProject(null)}>
+      <Dialog
+        open={selectedProject !== null}
+        onOpenChange={() => setSelectedProject(null)}
+      >
         <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
           {selectedProject && (
             <>
@@ -163,7 +182,7 @@ const Projects = () => {
                   {selectedProject.title}
                 </DialogTitle>
               </DialogHeader>
-              
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <img
@@ -172,7 +191,7 @@ const Projects = () => {
                     className="w-full h-64 object-cover rounded-lg"
                   />
                 </div>
-                
+
                 <div className="space-y-4">
                   <div className="flex flex-wrap gap-2">
                     {selectedProject.category.map((cat, catIndex) => (
@@ -184,12 +203,16 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div>
-                    <h4 className="font-semibold text-lg mb-2">Project Overview</h4>
-                    <p className="text-gray-600">{selectedProject.detailedDescription}</p>
+                    <h4 className="font-semibold text-lg mb-2">
+                      Project Overview
+                    </h4>
+                    <p className="text-gray-600">
+                      {selectedProject.detailedDescription}
+                    </p>
                   </div>
-                  
+
                   <div>
                     <h4 className="font-semibold text-lg mb-2">Key Features</h4>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
@@ -198,9 +221,11 @@ const Projects = () => {
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div>
-                    <h4 className="font-semibold text-lg mb-2">Technologies Used</h4>
+                    <h4 className="font-semibold text-lg mb-2">
+                      Technologies Used
+                    </h4>
                     <div className="flex flex-wrap gap-2">
                       {selectedProject.technologies.map((tech, index) => (
                         <span
@@ -212,19 +237,13 @@ const Projects = () => {
                       ))}
                     </div>
                   </div>
-                  
+
                   <div className="flex gap-4 pt-4">
-                    <Button
-                      onClick={() => window.open(selectedProject.githubLink, '_blank')}
-                      className="flex items-center gap-2 bg-gray-800 hover:bg-gray-900"
-                    >
+                    <Button className="flex items-center gap-2 bg-gray-800 hover:bg-gray-900">
                       <Github className="w-4 h-4" />
                       View Code
                     </Button>
-                    <Button
-                      onClick={() => window.open(selectedProject.figmaLink, '_blank')}
-                      className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700"
-                    >
+                    <Button className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700">
                       <Figma className="w-4 h-4" />
                       View Design
                     </Button>
