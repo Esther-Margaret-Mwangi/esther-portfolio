@@ -1,10 +1,18 @@
-import React from "react";
+
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowLeft, Github, ExternalLink } from "lucide-react";
+import { ArrowRight, ArrowLeft, Github, ExternalLink, Figma } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 const AllProjects = () => {
   const navigate = useNavigate();
+  const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
@@ -15,6 +23,13 @@ const AllProjects = () => {
         "Agritech mobile solution offering AI-powered plant disease diagnosis, soil testing, and fertilizer recommendation for smallholder farmers.",
       fullDescription:
         "A smart agriculture mobile application designed to empower smallholder farmers with digital tools for improved crop management. The app integrates AI-powered plant disease diagnosis, soil testing services, and intelligent fertilizer recommendations. It guides users through a clean, intuitive interface with clear calls to action and a seamless onboarding experience. The app features user authentication, photo-based plant diagnosis, form-based soil testing submissions, and instant results with tailored recommendations. The design promotes clarity and trust, with a focus on functional simplicity and agricultural relevance.The end goal was to provide farmers with a self-service tool that bridges the gap between modern agritech and traditional farming, enabling informed decision-making through digital convenience.",
+      keyFeatures: [
+        "AI-powered plant disease detection",
+        "Soil nutrient analysis", 
+        "Fertilizer recommendation engine",
+        "Weather forecasting integration",
+        "Farmer community forum"
+      ],
       technologies: [
         "Figma",
         "UI Design System for Agri-based Products",
@@ -38,6 +53,13 @@ const AllProjects = () => {
         "AI-powered farm intelligence platform that provides real-time soil analysis and fertilizer recommendations using NPK and pH values for optimized crop yield.",
       fullDescription:
         "An AI-powered farm intelligence dashboard developed to help farmers make data-driven decisions. This web-based platform provides tools for predicting soil organic carbon levels, recommending appropriate fertilizers, and offering region-specific agricultural advice tailored to Kenyan counties. The dashboard is designed with a clean, intuitive interface to simplify complex agricultural data and make insights accessible to users with varying technical backgrounds.",
+      keyFeatures: [
+        "Real-time soil monitoring",
+        "NPK and pH analysis",
+        "Crop yield predictions", 
+        "Irrigation scheduling",
+        "Cost optimization tools"
+      ],
       technologies: [
         "React.js",
         "Python & Machine Learning Models (for prediction logic)",
@@ -55,6 +77,13 @@ const AllProjects = () => {
         "Mobile app design for a coffee shop featuring real-time offers, categorized menu items, and a user-friendly shopping experience optimized for fast checkouts.",
       fullDescription:
         "An intuitive e-commerce mobile application crafted for a specialty coffee shop brand. The app features a visually appealing interface with smooth navigation through categories such as cappuccino, latte, espresso, and mocha. Key features include personalized offers, dynamic pricing, product browsing, add-to-cart functionality, and a seamless checkout experience. The design emphasizes accessibility, convenience, and brand consistency to enhance user engagement and drive conversions. The layout is optimized for mobile devices, combining warm color schemes with high-quality imagery to create a cozy, café-like feel. The project includes user authentication, onboarding, and interactive elements to elevate the digital coffee ordering experience.",
+      keyFeatures: [
+        "Real-time promotional offers",
+        "Menu categorization and filtering",
+        "Quick checkout process",
+        "Loyalty rewards system", 
+        "Order tracking and notifications"
+      ],
       technologies: [
         "Figma",
         "UX Research & Competitive Analysis",
@@ -73,6 +102,13 @@ const AllProjects = () => {
         "Modern UI/UX design for a credit card fraud detection platform that prioritizes user safety with AI-driven threat alerts and customizable fraud prevention services.",
       fullDescription:
         "A modern and secure credit card fraud detection website designed in Figma. FraudShield offers real-time protection through AI-driven analysis, alert systems, and customizable rule configurations to protect both individuals and businesses from suspicious financial activity. The design emphasizes trust, professionalism, and clarity, with a strong visual hierarchy and user-centered layout.",
+      keyFeatures: [
+        "Real-time fraud detection",
+        "AI-powered threat analysis",
+        "Customizable security alerts",
+        "Transaction monitoring",
+        "Risk assessment dashboard"
+      ],
       technologies: [
         "Figma (UI Design & Wireframes)",
         "UX Research (User Journey Mapping & Use Case Scenarios)",
@@ -88,7 +124,14 @@ const AllProjects = () => {
       description:
         "Fully responsive hotel website built with HTML, CSS, and PHP. Includes booking features for rooms, wellness services, dining, and event venues with an elegant and modern user interface.",
       fullDescription:
-        "A fully functional and visually rich hotel website developed for Sandton Resort & Spa. The platform allows users to explore the resort’s facilities including luxurious accommodations, fine dining, wellness services, nightlife experiences, and conference venues. Users can make room and service bookings directly from the site, enhancing convenience and user engagement.The UI is designed with a premium aesthetic, combining warm tones and elegant layouts to reflect the resort’s luxurious brand. Navigation is smooth and intuitive, allowing seamless browsing of sections like “Stay,” “Dining & Nightlife,” “Wellness,” and “Meetings & Events.” ",
+        "A fully functional and visually rich hotel website developed for Sandton Resort & Spa. The platform allows users to explore the resort's facilities including luxurious accommodations, fine dining, wellness services, nightlife experiences, and conference venues. Users can make room and service bookings directly from the site, enhancing convenience and user engagement.The UI is designed with a premium aesthetic, combining warm tones and elegant layouts to reflect the resort's luxurious brand. Navigation is smooth and intuitive, allowing seamless browsing of sections like "Stay," "Dining & Nightlife," "Wellness," and "Meetings & Events." ",
+      keyFeatures: [
+        "Online room booking system",
+        "Service reservations",
+        "Virtual tour integration",
+        "Multi-language support",
+        "Payment gateway integration"
+      ],
       technologies: ["HTML5 & CSS3", "PHP", "Responsive Design Techniques"],
       githubUrl: "#",
       liveUrl: "#",
@@ -101,13 +144,24 @@ const AllProjects = () => {
       description:
         "Modern church website prototype designed in Figma to enhance digital engagement and streamline access to worship content, sermons, and community information.",
       fullDescription:
-        "A full-featured church website prototype built for Mavuno Rongai to provide a seamless digital experience for members and visitors. The design emphasizes clarity, community engagement, and accessibility to resources such as worship services, sermons, Spotify teachings, and location details. The homepage highlights Sunday service info, quick access to media, and a strong call to action, while the overall layout reflects the church’s mission of transformation and fearless influence.",
+        "A full-featured church website prototype built for Mavuno Rongai to provide a seamless digital experience for members and visitors. The design emphasizes clarity, community engagement, and accessibility to resources such as worship services, sermons, Spotify teachings, and location details. The homepage highlights Sunday service info, quick access to media, and a strong call to action, while the overall layout reflects the church's mission of transformation and fearless influence.",
+      keyFeatures: [
+        "Sermon streaming and downloads",
+        "Event calendar integration",
+        "Online donation system",
+        "Community forum",
+        "Mobile-responsive design"  
+      ],
       technologies: ["Figma", "Figma", "Typography and Color Theory"],
       githubUrl: "#",
       liveUrl: "#",
       figmaUrl: "#",
     },
   ];
+
+  const handleProjectClick = (project) => {
+    setSelectedProject(project);
+  };
 
   const scrollToContact = () => {
     navigate("/");
@@ -169,7 +223,10 @@ const AllProjects = () => {
                     alt={project.title}
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute top-4 right-4 w-10 h-10 bg-green-800 rounded-full flex items-center justify-center">
+                  <div 
+                    className="absolute top-4 right-4 w-10 h-10 bg-green-800 rounded-full flex items-center justify-center hover:bg-green-900 transition-colors cursor-pointer"
+                    onClick={() => handleProjectClick(project)}
+                  >
                     <ArrowRight className="w-5 h-5 text-white" />
                   </div>
                 </div>
@@ -240,6 +297,89 @@ const AllProjects = () => {
           </div>
         </div>
       </section>
+
+      {/* Project Details Modal */}
+      <Dialog open={selectedProject !== null} onOpenChange={() => setSelectedProject(null)}>
+        <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+          {selectedProject && (
+            <>
+              <DialogHeader>
+                <DialogTitle className="text-2xl font-bold text-green-800">
+                  {selectedProject.title}
+                </DialogTitle>
+              </DialogHeader>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <img
+                    src={selectedProject.image}
+                    alt={selectedProject.title}
+                    className="w-full h-64 object-cover rounded-lg"
+                  />
+                </div>
+                
+                <div className="space-y-4">
+                  <div className="flex flex-wrap gap-2">
+                    {selectedProject.category.map((cat, catIndex) => (
+                      <span
+                        key={catIndex}
+                        className="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm"
+                      >
+                        {cat}
+                      </span>
+                    ))}
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-lg mb-2">Project Overview</h4>
+                    <p className="text-gray-600">{selectedProject.fullDescription}</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-lg mb-2">Key Features</h4>
+                    <ul className="list-disc list-inside space-y-1 text-gray-600">
+                      {selectedProject.keyFeatures.map((feature, index) => (
+                        <li key={index}>{feature}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-semibold text-lg mb-2">Technologies Used</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {selectedProject.technologies.map((tech, index) => (
+                        <span
+                          key={index}
+                          className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div className="flex gap-4 pt-4">
+                    <Button
+                      onClick={() => window.open(selectedProject.githubUrl, '_blank')}
+                      className="flex items-center gap-2 bg-gray-800 hover:bg-gray-900"
+                    >
+                      <Github className="w-4 h-4" />
+                      View Code
+                    </Button>
+                    <Button
+                      onClick={() => window.open(selectedProject.figmaUrl, '_blank')}
+                      className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700"
+                    >
+                      <Figma className="w-4 h-4" />
+                      View Design
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
