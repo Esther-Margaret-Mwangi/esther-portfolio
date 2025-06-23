@@ -124,7 +124,7 @@ const AllProjects = () => {
       description:
         "Fully responsive hotel website built with HTML, CSS, and PHP. Includes booking features for rooms, wellness services, dining, and event venues with an elegant and modern user interface.",
       fullDescription:
-        "A fully functional and visually rich hotel website developed for Sandton Resort & Spa. The platform allows users to explore the resort's facilities including luxurious accommodations, fine dining, wellness services, nightlife experiences, and conference venues. Users can make room and service bookings directly from the site, enhancing convenience and user engagement.The UI is designed with a premium aesthetic, combining warm tones and elegant layouts to reflect the resort's luxurious brand. Navigation is smooth and intuitive, allowing seamless browsing of sections like "Stay," "Dining & Nightlife," "Wellness," and "Meetings & Events." ",
+        "A fully functional and visually rich hotel website developed for Sandton Resort & Spa. The platform allows users to explore the resort's facilities including luxurious accommodations, fine dining, wellness services, nightlife experiences, and conference venues. Users can make room and service bookings directly from the site, enhancing convenience and user engagement.The UI is designed with a premium aesthetic, combining warm tones and elegant layouts to reflect the resort's luxurious brand. Navigation is smooth and intuitive, allowing seamless browsing of sections like 'Stay,' 'Dining & Nightlife,' 'Wellness,' and 'Meetings & Events.'",
       keyFeatures: [
         "Online room booking system",
         "Service reservations",
@@ -152,7 +152,7 @@ const AllProjects = () => {
         "Community forum",
         "Mobile-responsive design"  
       ],
-      technologies: ["Figma", "Figma", "Typography and Color Theory"],
+      technologies: ["Figma", "Typography and Color Theory"],
       githubUrl: "#",
       liveUrl: "#",
       figmaUrl: "#",
