@@ -69,7 +69,7 @@ const Hero = () => {
               {/* Orange Circle Background */}
               <div className="w-80 h-80 bg-orange-500 rounded-full mx-auto relative overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop&crop=face"
+                  src="/me smile.jpg"
                   alt="Esther Margaret"
                   className="w-full h-full object-cover"
                 />

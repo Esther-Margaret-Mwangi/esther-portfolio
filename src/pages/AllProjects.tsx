@@ -8,85 +8,101 @@ const AllProjects = () => {
 
   const projects = [
     {
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-      title: "E-commerce Mobile App",
+      image: "/Shambah Solutions.png",
+      title: "Shambah Solutions Mobile App",
       category: ["UI/UX Design", "App Design", "Wireframe"],
       description:
-        "Complete mobile app solution for beauty products with seamless shopping experience.",
+        "Agritech mobile solution offering AI-powered plant disease diagnosis, soil testing, and fertilizer recommendation for smallholder farmers.",
       fullDescription:
-        "A comprehensive e-commerce mobile application designed specifically for beauty products. Features include user authentication, product catalog, shopping cart, secure payment integration, order tracking, and user reviews. The design focuses on visual appeal and ease of use, with a clean interface that highlights product imagery and simplifies the purchasing process.",
-      technologies: ["Figma", "React Native Design", "User Research"],
+        "A smart agriculture mobile application designed to empower smallholder farmers with digital tools for improved crop management. The app integrates AI-powered plant disease diagnosis, soil testing services, and intelligent fertilizer recommendations. It guides users through a clean, intuitive interface with clear calls to action and a seamless onboarding experience. The app features user authentication, photo-based plant diagnosis, form-based soil testing submissions, and instant results with tailored recommendations. The design promotes clarity and trust, with a focus on functional simplicity and agricultural relevance.The end goal was to provide farmers with a self-service tool that bridges the gap between modern agritech and traditional farming, enabling informed decision-making through digital convenience.",
+      technologies: [
+        "Figma",
+        "UI Design System for Agri-based Products",
+        "Wireframing & Interactive Prototyping",
+        "Usability Testing & Feedback Integration",
+      ],
       githubUrl: "#",
       liveUrl: "#",
       figmaUrl: "#",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop",
-      title: "Beauty Product Landing Page",
+      image: "/Farm smart dashboard.jpg",
+      title: "Smart Farm Dashboard",
+      category: [
+        "UI/UX Design",
+        "Frontend Development",
+        "Web Design",
+        "Wireframe",
+      ],
+      description:
+        "AI-powered farm intelligence platform that provides real-time soil analysis and fertilizer recommendations using NPK and pH values for optimized crop yield.",
+      fullDescription:
+        "An AI-powered farm intelligence dashboard developed to help farmers make data-driven decisions. This web-based platform provides tools for predicting soil organic carbon levels, recommending appropriate fertilizers, and offering region-specific agricultural advice tailored to Kenyan counties. The dashboard is designed with a clean, intuitive interface to simplify complex agricultural data and make insights accessible to users with varying technical backgrounds.",
+      technologies: [
+        "React.js",
+        "Python & Machine Learning Models (for prediction logic)",
+        "Tailwind CSS",
+      ],
+      githubUrl: "#",
+      liveUrl: "#",
+      figmaUrl: "#",
+    },
+    {
+      image: "/Cremah1.png",
+      title: "Cremah Coffee Mobile App",
+      category: ["UI/UX Design", "App Design", "Wireframe"],
+      description:
+        "Mobile app design for a coffee shop featuring real-time offers, categorized menu items, and a user-friendly shopping experience optimized for fast checkouts.",
+      fullDescription:
+        "An intuitive e-commerce mobile application crafted for a specialty coffee shop brand. The app features a visually appealing interface with smooth navigation through categories such as cappuccino, latte, espresso, and mocha. Key features include personalized offers, dynamic pricing, product browsing, add-to-cart functionality, and a seamless checkout experience. The design emphasizes accessibility, convenience, and brand consistency to enhance user engagement and drive conversions. The layout is optimized for mobile devices, combining warm color schemes with high-quality imagery to create a cozy, café-like feel. The project includes user authentication, onboarding, and interactive elements to elevate the digital coffee ordering experience.",
+      technologies: [
+        "Figma",
+        "UX Research & Competitive Analysis",
+        "User Flow Mapping",
+        "Interactive Prototyping",
+      ],
+      githubUrl: "#",
+      liveUrl: "#",
+      figmaUrl: "#",
+    },
+    {
+      image: "/fraudshield.png",
+      title: "FraudShield Credit Card Protection",
       category: ["UI/UX Design", "Web Design", "Wireframe"],
       description:
-        "Modern landing page design for beauty products with focus on conversion optimization.",
+        "Modern UI/UX design for a credit card fraud detection platform that prioritizes user safety with AI-driven threat alerts and customizable fraud prevention services.",
       fullDescription:
-        "A high-converting landing page designed for beauty product marketing. Includes hero section with compelling copy, product showcase, customer testimonials, before/after galleries, and clear call-to-action buttons. The design emphasizes trust-building elements and social proof to maximize conversion rates.",
-      technologies: ["Figma", "HTML/CSS", "JavaScript", "React.js"],
+        "A modern and secure credit card fraud detection website designed in Figma. FraudShield offers real-time protection through AI-driven analysis, alert systems, and customizable rule configurations to protect both individuals and businesses from suspicious financial activity. The design emphasizes trust, professionalism, and clarity, with a strong visual hierarchy and user-centered layout.",
+      technologies: [
+        "Figma (UI Design & Wireframes)",
+        "UX Research (User Journey Mapping & Use Case Scenarios)",
+      ],
       githubUrl: "#",
       liveUrl: "#",
       figmaUrl: "#",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
-      title: "Coffee Shop Web Application",
-      category: ["UI/UX Design", "Frontend Development", "Wireframe"],
-      description:
-        "Frontend coffee ordering application with real-time order tracking and payment integration.",
-      fullDescription:
-        "A modern web application for coffee shop ordering system. Features include menu browsing, customization options, cart management, user accounts, order history, and real-time order status updates. Built with React.js for smooth user interactions and responsive design for all devices.",
-      technologies: ["React.js", "HTML/CSS", "JavaScript", "Figma"],
-      githubUrl: "#",
-      liveUrl: "#",
-      figmaUrl: "#",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop",
-      title: "Coffee Shop Mobile App",
-      category: ["UI/UX Design", "Web Design", "Wireframe"],
-      description:
-        "Mobile app design for coffee ordering with loyalty program and location-based services.",
-      fullDescription:
-        "Mobile application design for coffee ordering with advanced features like loyalty rewards, location-based store finder, pre-ordering capabilities, and push notifications for order updates. The design focuses on speed and convenience for busy coffee lovers.",
-      technologies: ["Figma", "Mobile UI Design", "User Experience"],
-      githubUrl: "#",
-      liveUrl: "#",
-      figmaUrl: "#",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      title: "Data Analytics Dashboard",
+      image: "/Sandton.png",
+      title: "Sandton Hotel Booking Website",
       category: ["UI/UX Design", "Frontend Development", "AI Integration"],
       description:
-        "Interactive dashboard for data visualization with AI-powered insights.",
+        "Fully responsive hotel website built with HTML, CSS, and PHP. Includes booking features for rooms, wellness services, dining, and event venues with an elegant and modern user interface.",
       fullDescription:
-        "A comprehensive data analytics dashboard that combines beautiful data visualization with AI-powered insights. Features interactive charts, real-time data updates, predictive analytics, and customizable reporting. Built using React.js with Python ML integration for advanced analytics.",
-      technologies: ["React.js", "Python", "Scikit-learn", "D3.js"],
+        "A fully functional and visually rich hotel website developed for Sandton Resort & Spa. The platform allows users to explore the resort’s facilities including luxurious accommodations, fine dining, wellness services, nightlife experiences, and conference venues. Users can make room and service bookings directly from the site, enhancing convenience and user engagement.The UI is designed with a premium aesthetic, combining warm tones and elegant layouts to reflect the resort’s luxurious brand. Navigation is smooth and intuitive, allowing seamless browsing of sections like “Stay,” “Dining & Nightlife,” “Wellness,” and “Meetings & Events.” ",
+      technologies: ["HTML5 & CSS3", "PHP", "Responsive Design Techniques"],
       githubUrl: "#",
       liveUrl: "#",
       figmaUrl: "#",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop",
-      title: "Portfolio Website Template",
-      category: ["UI/UX Design", "Frontend Development", "Web Design"],
+      image: "/mavuno.png",
+      title: "Mavuno Rongai Church Website",
+      category: ["UI/UX Design", "Web Design", "Wireframe"],
       description:
-        "Modern portfolio website template for creative professionals.",
+        "Modern church website prototype designed in Figma to enhance digital engagement and streamline access to worship content, sermons, and community information.",
       fullDescription:
-        "A sleek and modern portfolio website template designed for creative professionals. Features include animated transitions, project galleries, contact forms, blog integration, and responsive design. Built with modern web technologies and optimized for performance and SEO.",
-      technologies: ["React.js", "HTML/CSS", "JavaScript", "Figma"],
+        "A full-featured church website prototype built for Mavuno Rongai to provide a seamless digital experience for members and visitors. The design emphasizes clarity, community engagement, and accessibility to resources such as worship services, sermons, Spotify teachings, and location details. The homepage highlights Sunday service info, quick access to media, and a strong call to action, while the overall layout reflects the church’s mission of transformation and fearless influence.",
+      technologies: ["Figma", "Figma", "Typography and Color Theory"],
       githubUrl: "#",
       liveUrl: "#",
       figmaUrl: "#",

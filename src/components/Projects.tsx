@@ -8,36 +8,37 @@ const Projects = () => {
 
   const projects = [
     {
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-      title: "E-commerce Mobile App",
+      image: "/Shambah Solutions.png",
+      title: "Shambah Solutions Mobile App",
       category: ["UI/UX Design", "App Design", "Wireframe"],
       description:
-        "Complete mobile app solution for beauty products with seamless shopping experience.",
+        "Agritech mobile solution offering AI-powered plant disease diagnosis, soil testing, and fertilizer recommendation for smallholder farmers.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop",
-      title: "Beauty Product Landing Page",
+      image: "/Farm smart dashboard.jpg",
+      title: "Smart Farm Dashboard",
+      category: [
+        "UI/UX Design",
+        "Frontend Development",
+        "Web Design",
+        "Wireframe",
+      ],
+      description:
+        "AI-powered farm intelligence platform that provides real-time soil analysis and fertilizer recommendations using NPK and pH values for optimized crop yield.",
+    },
+    {
+      image: "/Cremah1.png",
+      title: "Cremah Coffee Mobile App",
+      category: ["UI/UX Design", "App Design", "Wireframe"],
+      description:
+        "Mobile app design for a coffee shop featuring real-time offers, categorized menu items, and a user-friendly shopping experience optimized for fast checkouts.",
+    },
+    {
+      image: "/fraudshield.png",
+      title: "FraudShield Credit Card Protection",
       category: ["UI/UX Design", "Web Design", "Wireframe"],
       description:
-        "Modern landing page design for beauty products with focus on conversion optimization.",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
-      title: "Coffee Shop Web Application",
-      category: ["UI/UX Design", "Frontend Development", "Wireframe"],
-      description:
-        "Frontend coffee ordering application with real-time order tracking and payment integration.",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop",
-      title: "Coffee Shop Mobile App",
-      category: ["UI/UX Design", "Web Design", "Wireframe"],
-      description:
-        "Mobile app design for coffee ordering with loyalty program and location-based services.",
+        "Modern UI/UX design for a credit card fraud detection platform that prioritizes user safety with AI-driven threat alerts and customizable fraud prevention services.",
     },
   ];
 
