@@ -45,7 +45,7 @@ const About = () => {
             <div>
               <span className="text-orange-500 font-medium">~ About Me</span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2">
-                Who is <span className="text-orange-500">Esther Margaret?</span>
+                Who is <span className="text-orange-500">Esther Mwangi?</span>
               </h2>
             </div>
 
