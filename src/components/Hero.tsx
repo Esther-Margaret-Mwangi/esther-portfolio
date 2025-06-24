@@ -33,15 +33,15 @@ const Hero = () => {
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 I'm <span className="text-orange-500">Esther Margaret</span>,
                 <br />
-                Software Developer
+                Software Developer and
                 <br />
-                Based in Kenya.
+                UI/UX Designer.
               </h1>
 
               <p className="text-gray-600 text-lg max-w-md">
-                I'm a passionate Software Developer with 2+ years in the field,
-                collaborating with various companies and creating innovative
-                solutions.
+                I'm a passionate Software Developer and UI/UX Designer with 2+
+                years in the field, collaborating with various companies and
+                creating innovative solutions.
               </p>
             </div>
 

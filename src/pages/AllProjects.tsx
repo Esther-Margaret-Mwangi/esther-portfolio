@@ -1,7 +1,12 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowLeft, Github, ExternalLink, Figma } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowLeft,
+  Github,
+  ExternalLink,
+  Figma,
+} from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import {
   Dialog,
@@ -25,10 +30,10 @@ const AllProjects = () => {
         "A smart agriculture mobile application designed to empower smallholder farmers with digital tools for improved crop management. The app integrates AI-powered plant disease diagnosis, soil testing services, and intelligent fertilizer recommendations. It guides users through a clean, intuitive interface with clear calls to action and a seamless onboarding experience. The app features user authentication, photo-based plant diagnosis, form-based soil testing submissions, and instant results with tailored recommendations. The design promotes clarity and trust, with a focus on functional simplicity and agricultural relevance.The end goal was to provide farmers with a self-service tool that bridges the gap between modern agritech and traditional farming, enabling informed decision-making through digital convenience.",
       keyFeatures: [
         "AI-powered plant disease detection",
-        "Soil nutrient analysis", 
+        "Soil nutrient analysis",
         "Fertilizer recommendation engine",
         "Weather forecasting integration",
-        "Farmer community forum"
+        "Farmer community forum",
       ],
       technologies: [
         "Figma",
@@ -47,7 +52,7 @@ const AllProjects = () => {
         "UI/UX Design",
         "Frontend Development",
         "Web Design",
-        "Wireframe",
+        "AI Integration",
       ],
       description:
         "AI-powered farm intelligence platform that provides real-time soil analysis and fertilizer recommendations using NPK and pH values for optimized crop yield.",
@@ -56,9 +61,9 @@ const AllProjects = () => {
       keyFeatures: [
         "Real-time soil monitoring",
         "NPK and pH analysis",
-        "Crop yield predictions", 
+        "Crop yield predictions",
         "Irrigation scheduling",
-        "Cost optimization tools"
+        "Cost optimization tools",
       ],
       technologies: [
         "React.js",
@@ -81,8 +86,8 @@ const AllProjects = () => {
         "Real-time promotional offers",
         "Menu categorization and filtering",
         "Quick checkout process",
-        "Loyalty rewards system", 
-        "Order tracking and notifications"
+        "Loyalty rewards system",
+        "Order tracking and notifications",
       ],
       technologies: [
         "Figma",
@@ -107,7 +112,7 @@ const AllProjects = () => {
         "AI-powered threat analysis",
         "Customizable security alerts",
         "Transaction monitoring",
-        "Risk assessment dashboard"
+        "Risk assessment dashboard",
       ],
       technologies: [
         "Figma (UI Design & Wireframes)",
@@ -120,7 +125,7 @@ const AllProjects = () => {
     {
       image: "/Sandton.png",
       title: "Sandton Hotel Booking Website",
-      category: ["UI/UX Design", "Frontend Development", "AI Integration"],
+      category: ["UI/UX Design", "Frontend Development", "  Web Design"],
       description:
         "Fully responsive hotel website built with HTML, CSS, and PHP. Includes booking features for rooms, wellness services, dining, and event venues with an elegant and modern user interface.",
       fullDescription:
@@ -130,7 +135,7 @@ const AllProjects = () => {
         "Service reservations",
         "Virtual tour integration",
         "Multi-language support",
-        "Payment gateway integration"
+        "Payment gateway integration",
       ],
       technologies: ["HTML5 & CSS3", "PHP", "Responsive Design Techniques"],
       githubUrl: "#",
@@ -150,7 +155,7 @@ const AllProjects = () => {
         "Event calendar integration",
         "Online donation system",
         "Community forum",
-        "Mobile-responsive design"  
+        "Mobile-responsive design",
       ],
       technologies: ["Figma", "Typography and Color Theory"],
       githubUrl: "#",
@@ -223,7 +228,7 @@ const AllProjects = () => {
                     alt={project.title}
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div 
+                  <div
                     className="absolute top-4 right-4 w-10 h-10 bg-green-800 rounded-full flex items-center justify-center hover:bg-green-900 transition-colors cursor-pointer"
                     onClick={() => handleProjectClick(project)}
                   >
@@ -299,7 +304,10 @@ const AllProjects = () => {
       </section>
 
       {/* Project Details Modal */}
-      <Dialog open={selectedProject !== null} onOpenChange={() => setSelectedProject(null)}>
+      <Dialog
+        open={selectedProject !== null}
+        onOpenChange={() => setSelectedProject(null)}
+      >
         <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
           {selectedProject && (
             <>
@@ -308,7 +316,7 @@ const AllProjects = () => {
                   {selectedProject.title}
                 </DialogTitle>
               </DialogHeader>
-              
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <img
@@ -317,7 +325,7 @@ const AllProjects = () => {
                     className="w-full h-64 object-cover rounded-lg"
                   />
                 </div>
-                
+
                 <div className="space-y-4">
                   <div className="flex flex-wrap gap-2">
                     {selectedProject.category.map((cat, catIndex) => (
@@ -329,12 +337,16 @@ const AllProjects = () => {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div>
-                    <h4 className="font-semibold text-lg mb-2">Project Overview</h4>
-                    <p className="text-gray-600">{selectedProject.fullDescription}</p>
+                    <h4 className="font-semibold text-lg mb-2">
+                      Project Overview
+                    </h4>
+                    <p className="text-gray-600">
+                      {selectedProject.fullDescription}
+                    </p>
                   </div>
-                  
+
                   <div>
                     <h4 className="font-semibold text-lg mb-2">Key Features</h4>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
@@ -343,9 +355,11 @@ const AllProjects = () => {
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div>
-                    <h4 className="font-semibold text-lg mb-2">Technologies Used</h4>
+                    <h4 className="font-semibold text-lg mb-2">
+                      Technologies Used
+                    </h4>
                     <div className="flex flex-wrap gap-2">
                       {selectedProject.technologies.map((tech, index) => (
                         <span
@@ -357,17 +371,21 @@ const AllProjects = () => {
                       ))}
                     </div>
                   </div>
-                  
+
                   <div className="flex gap-4 pt-4">
                     <Button
-                      onClick={() => window.open(selectedProject.githubUrl, '_blank')}
+                      onClick={() =>
+                        window.open(selectedProject.githubUrl, "_blank")
+                      }
                       className="flex items-center gap-2 bg-gray-800 hover:bg-gray-900"
                     >
                       <Github className="w-4 h-4" />
                       View Code
                     </Button>
                     <Button
-                      onClick={() => window.open(selectedProject.figmaUrl, '_blank')}
+                      onClick={() =>
+                        window.open(selectedProject.figmaUrl, "_blank")
+                      }
                       className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700"
                     >
                       <Figma className="w-4 h-4" />
