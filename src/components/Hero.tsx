@@ -31,7 +31,7 @@ const Hero = () => {
 
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                I'm <span className="text-orange-500">Esther Margaret</span>,
+                I'm <span className="text-orange-500">Esther Mwangi</span>,
                 <br />
                 Software Developer and
                 <br />
