@@ -81,7 +81,7 @@ const About = () => {
                 <ArrowRight className="w-4 h-4" />
               </Button>
               <div className="text-orange-500 font-medium text-lg italic">
-                Esther Margaret
+                Esther Mwangi
               </div>
             </div>
           </div>
