@@ -121,8 +121,10 @@ const AllProjects = () => {
         "UX Research (User Journey Mapping & Use Case Scenarios)",
       ],
       githubUrl: "#",
-      liveUrl: "#",
-      figmaUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/KiTTtiLanNtbXTZOhkbjeY/FRAUDSHIELD-WEBSITE?page-id=0%3A1&node-id=3-43&viewport=71%2C175%2C0.05&t=HkrhhKRQGJiKb3ay-1&scaling=scale-down&content-scaling=fixed",
+      figmaUrl:
+        "https://www.figma.com/proto/KiTTtiLanNtbXTZOhkbjeY/FRAUDSHIELD-WEBSITE?page-id=0%3A1&node-id=3-43&viewport=71%2C175%2C0.05&t=HkrhhKRQGJiKb3ay-1&scaling=scale-down&content-scaling=fixed",
     },
     {
       image: "/Sandton.png",
@@ -161,8 +163,10 @@ const AllProjects = () => {
       ],
       technologies: ["Figma", "Typography and Color Theory"],
       githubUrl: "#",
-      liveUrl: "#",
-      figmaUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/AW7aakAuGkT9C1loDRM6ek/Mavuno-Website?page-id=0%3A1&node-id=1-2&viewport=174%2C122%2C0.12&t=X0Xl53XuuttdAidp-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
+      figmaUrl:
+        "https://www.figma.com/proto/AW7aakAuGkT9C1loDRM6ek/Mavuno-Website?page-id=0%3A1&node-id=1-2&viewport=174%2C122%2C0.12&t=X0Xl53XuuttdAidp-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
     },
   ];
 
@@ -280,6 +284,9 @@ const AllProjects = () => {
                       GitHub
                     </Button>
                     <Button
+                      onClick={() =>
+                        window.open(selectedProject.liveUrl, "_blank")
+                      }
                       size="sm"
                       variant="outline"
                       className="border-orange-500 text-orange-500 hover:bg-orange-50 flex items-center gap-2"

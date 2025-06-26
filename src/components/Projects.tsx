@@ -107,7 +107,8 @@ const Projects = () => {
         "UX Research (User Journey Mapping & Use Case Scenarios)",
       ],
       githubLink: "#",
-      figmaLink: "#",
+      figmaLink:
+        "https://www.figma.com/proto/KiTTtiLanNtbXTZOhkbjeY/FRAUDSHIELD-WEBSITE?page-id=0%3A1&node-id=3-43&viewport=71%2C175%2C0.05&t=HkrhhKRQGJiKb3ay-1&scaling=scale-down&content-scaling=fixed",
     },
   ];
 
