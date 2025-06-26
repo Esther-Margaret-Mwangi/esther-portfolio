@@ -42,8 +42,10 @@ const AllProjects = () => {
         "Usability Testing & Feedback Integration",
       ],
       githubUrl: "#",
-      liveUrl: "#",
-      figmaUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/8p7LRyujwr1ypp6dcWe50u/Shambah-Solutions-app?page-id=0%3A1&node-id=6-23&viewport=-1849%2C-5963%2C1.81&t=MhFFzE5PO4snCr7g-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1",
+      figmaUrl:
+        "https://www.figma.com/proto/8p7LRyujwr1ypp6dcWe50u/Shambah-Solutions-app?page-id=0%3A1&node-id=6-23&viewport=-1849%2C-5963%2C1.81&t=MhFFzE5PO4snCr7g-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1",
     },
     {
       image: "/Farm smart dashboard.jpg",

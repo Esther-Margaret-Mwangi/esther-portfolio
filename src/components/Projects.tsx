@@ -35,7 +35,8 @@ const Projects = () => {
         "Usability Testing & Feedback Integration",
       ],
       githubLink: "#",
-      figmaLink: "#",
+      figmaLink:
+        "https://www.figma.com/proto/8p7LRyujwr1ypp6dcWe50u/Shambah-Solutions-app?page-id=0%3A1&node-id=6-23&viewport=-1849%2C-5963%2C1.81&t=MhFFzE5PO4snCr7g-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1",
     },
     {
       image: "/Farm smart dashboard.jpg",
@@ -243,7 +244,12 @@ const Projects = () => {
                       <Github className="w-4 h-4" />
                       View Code
                     </Button>
-                    <Button className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700">
+                    <Button
+                      onClick={() =>
+                        window.open(selectedProject.figmaLink, "_blank")
+                      }
+                      className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700"
+                    >
                       <Figma className="w-4 h-4" />
                       View Design
                     </Button>
