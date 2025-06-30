@@ -85,7 +85,8 @@ const Projects = () => {
         "Interactive Prototyping",
       ],
       githubLink: "#",
-      figmaLink: "#",
+      figmaLink:
+        "https://www.figma.com/proto/t8tNXWmmnfY9rrG2VxgBkV/Coffee-app?page-id=0%3A1&node-id=2-3&viewport=450%2C10%2C0.17&t=ZbwIpj7WTnh8wbqb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A40",
     },
     {
       image: "/fraudshield.png",
