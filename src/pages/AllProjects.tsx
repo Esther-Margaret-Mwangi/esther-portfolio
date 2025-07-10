@@ -48,6 +48,31 @@ const AllProjects = () => {
         "https://www.figma.com/proto/4qX97Vtwp98044ThMAJ6GI/Trendify-Ecommerce-App?page-id=0%3A1&node-id=1-331&viewport=552%2C150%2C0.66&t=jL9bl55ucxn91nO3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
     },
     {
+      image: "/fraudshield.png",
+      title: "FraudShield Credit Card Protection",
+      category: ["UI/UX Design", "Web Design", "Wireframe"],
+      description:
+        "Modern UI/UX design for a credit card fraud detection platform that prioritizes user safety with AI-driven threat alerts and customizable fraud prevention services.",
+      fullDescription:
+        "A modern and secure credit card fraud detection website designed in Figma. FraudShield offers real-time protection through AI-driven analysis, alert systems, and customizable rule configurations to protect both individuals and businesses from suspicious financial activity. The design emphasizes trust, professionalism, and clarity, with a strong visual hierarchy and user-centered layout.",
+      keyFeatures: [
+        "Real-time fraud detection",
+        "AI-powered threat analysis",
+        "Customizable security alerts",
+        "Transaction monitoring",
+        "Risk assessment dashboard",
+      ],
+      technologies: [
+        "Figma (UI Design & Wireframes)",
+        "UX Research (User Journey Mapping & Use Case Scenarios)",
+      ],
+      githubUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/KiTTtiLanNtbXTZOhkbjeY/FRAUDSHIELD-WEBSITE?page-id=0%3A1&node-id=3-43&viewport=71%2C175%2C0.05&t=HkrhhKRQGJiKb3ay-1&scaling=scale-down&content-scaling=fixed",
+      figmaUrl:
+        "https://www.figma.com/proto/KiTTtiLanNtbXTZOhkbjeY/FRAUDSHIELD-WEBSITE?page-id=0%3A1&node-id=3-43&viewport=71%2C175%2C0.05&t=HkrhhKRQGJiKb3ay-1&scaling=scale-down&content-scaling=fixed",
+    },
+    {
       image: "/Shambah Solutions.png",
       title: "Shambah Solutions (Agri-tech) App",
       category: ["UI/UX Design", "App Design", "Wireframe"],
@@ -125,31 +150,7 @@ const AllProjects = () => {
       figmaUrl:
         "https://www.figma.com/proto/t8tNXWmmnfY9rrG2VxgBkV/Coffee-app?page-id=0%3A1&node-id=2-3&viewport=450%2C10%2C0.17&t=ZbwIpj7WTnh8wbqb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A40",
     },
-    {
-      image: "/fraudshield.png",
-      title: "FraudShield Credit Card Protection",
-      category: ["UI/UX Design", "Web Design", "Wireframe"],
-      description:
-        "Modern UI/UX design for a credit card fraud detection platform that prioritizes user safety with AI-driven threat alerts and customizable fraud prevention services.",
-      fullDescription:
-        "A modern and secure credit card fraud detection website designed in Figma. FraudShield offers real-time protection through AI-driven analysis, alert systems, and customizable rule configurations to protect both individuals and businesses from suspicious financial activity. The design emphasizes trust, professionalism, and clarity, with a strong visual hierarchy and user-centered layout.",
-      keyFeatures: [
-        "Real-time fraud detection",
-        "AI-powered threat analysis",
-        "Customizable security alerts",
-        "Transaction monitoring",
-        "Risk assessment dashboard",
-      ],
-      technologies: [
-        "Figma (UI Design & Wireframes)",
-        "UX Research (User Journey Mapping & Use Case Scenarios)",
-      ],
-      githubUrl: "#",
-      liveUrl:
-        "https://www.figma.com/proto/KiTTtiLanNtbXTZOhkbjeY/FRAUDSHIELD-WEBSITE?page-id=0%3A1&node-id=3-43&viewport=71%2C175%2C0.05&t=HkrhhKRQGJiKb3ay-1&scaling=scale-down&content-scaling=fixed",
-      figmaUrl:
-        "https://www.figma.com/proto/KiTTtiLanNtbXTZOhkbjeY/FRAUDSHIELD-WEBSITE?page-id=0%3A1&node-id=3-43&viewport=71%2C175%2C0.05&t=HkrhhKRQGJiKb3ay-1&scaling=scale-down&content-scaling=fixed",
-    },
+
     {
       image: "/Sandton.png",
       title: "Sandton Hotel Booking Website",
