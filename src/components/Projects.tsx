@@ -41,7 +41,7 @@ const Projects = () => {
     },
     {
       image: "/Shambah Solutions.png",
-      title: "Shambah Solutions Mobile App",
+      title: "Shambah Solutions (Agri-tech) App",
       category: ["UI/UX Design", "App Design", "Wireframe"],
       description:
         "Agritech mobile solution offering AI-powered plant disease diagnosis, soil testing, and fertilizer recommendation for smallholder farmers.",
