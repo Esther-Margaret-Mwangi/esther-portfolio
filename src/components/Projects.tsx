@@ -20,7 +20,7 @@ const Projects = () => {
       category: ["UI/UX Design", "App Design", "Wireframe"],
       description:
         "A global e-commerce app designed to offer users a seamless shopping experience across diverse product categories, featuring a clean interface, smart search, and international shipping.",
-      fullDescription:
+      detailedDescription:
         "Trendify is a modern global e-commerce mobile app, tailored for users seeking a wide variety of products from electronics to fashion, home appliances, beauty products, and more. The app offers an intuitive shopping experience with global reach, advanced product filtering, and personalized recommendations. It features a visually appealing design, product browsing across multiple categories, dynamic search functionality, add-to-cart and wishlist capabilities, international shipping, and a smooth checkout process. The app focuses on accessibility, user trust, and brand neutrality to cater to a wide range of global consumers. Designed for both Android and iOS, the UI is clean, scalable, and optimized for performance.",
       keyFeatures: [
         "Multi-category product browsing",
