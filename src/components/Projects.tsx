@@ -66,12 +66,7 @@ const Projects = () => {
     {
       image: "/Farm smart dashboard.jpg",
       title: "Smart Farm Dashboard",
-      category: [
-        "UI/UX Design",
-        "Frontend Development",
-        "Web Design",
-        "Wireframe",
-      ],
+      category: ["Frontend Development", "Web Design", "Wireframe"],
       description:
         "AI-powered farm intelligence platform that provides real-time soil analysis and fertilizer recommendations using NPK and pH values for optimized crop yield.",
       detailedDescription:
