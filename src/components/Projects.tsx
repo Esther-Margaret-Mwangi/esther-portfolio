@@ -40,7 +40,7 @@ const Projects = () => {
         "https://www.figma.com/proto/4qX97Vtwp98044ThMAJ6GI/Trendify-Ecommerce-App?page-id=0%3A1&node-id=1-331&viewport=552%2C150%2C0.66&t=jL9bl55ucxn91nO3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
     },
     {
-      image: "/fraudshield.png",
+      image: "/fraudshield2.png",
       title: "FraudShield Credit Card Protection",
       category: ["UI/UX Design", "Web Design", "Wireframe"],
       description:
