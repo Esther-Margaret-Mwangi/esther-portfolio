@@ -21,6 +21,33 @@ const AllProjects = () => {
 
   const projects = [
     {
+      image: "/Trendify1.png",
+      title: "Trendify E-commerce App",
+      category: ["UI/UX Design", "App Design", "Wireframe"],
+      description:
+        "A global e-commerce app designed to offer users a seamless shopping experience across diverse product categories, featuring a clean interface, smart search, and international shipping.",
+      fullDescription:
+        "Trendify is a modern global e-commerce mobile app, tailored for users seeking a wide variety of products from electronics to fashion, home appliances, beauty products, and more. The app offers an intuitive shopping experience with global reach, advanced product filtering, and personalized recommendations. It features a visually appealing design, product browsing across multiple categories, dynamic search functionality, add-to-cart and wishlist capabilities, international shipping, and a smooth checkout process. The app focuses on accessibility, user trust, and brand neutrality to cater to a wide range of global consumers. Designed for both Android and iOS, the UI is clean, scalable, and optimized for performance.",
+      keyFeatures: [
+        "Multi-category product browsing",
+        "Global shipping and real-time tracking",
+        "Smart search and product filtering",
+        "Personalized recommendations and wishlists",
+        "Secure checkout with multiple payment options",
+      ],
+      technologies: [
+        "Figma",
+        "UX Research & Competitive Analysis",
+        "User Flow Mapping",
+        "High-Fidelity Prototyping",
+      ],
+      githubUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/4qX97Vtwp98044ThMAJ6GI/Trendify-Ecommerce-App?page-id=0%3A1&node-id=1-331&viewport=552%2C150%2C0.66&t=jL9bl55ucxn91nO3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
+      figmaUrl:
+        "https://www.figma.com/proto/4qX97Vtwp98044ThMAJ6GI/Trendify-Ecommerce-App?page-id=0%3A1&node-id=1-331&viewport=552%2C150%2C0.66&t=jL9bl55ucxn91nO3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
+    },
+    {
       image: "/Shambah Solutions.png",
       title: "Shambah Solutions Mobile App",
       category: ["UI/UX Design", "App Design", "Wireframe"],
