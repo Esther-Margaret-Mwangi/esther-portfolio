@@ -15,7 +15,7 @@ const Projects = () => {
 
   const projects = [
     {
-      image: "/Trendify1.png",
+      image: "/Trendify.png",
       title: "Trendify E-commerce App",
       category: ["UI/UX Design", "App Design", "Wireframe"],
       description:
