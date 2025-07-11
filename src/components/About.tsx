@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 const About = () => {
   const handleDownloadCV = () => {
-    const cvUrl = "/CV.pdf";
+    const cvUrl = "/Esther Margaret CV.pdf";
     window.open(cvUrl, "_blank");
   };
 
