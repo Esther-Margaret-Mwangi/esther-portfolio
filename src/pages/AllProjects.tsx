@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import {
   ArrowRight,
@@ -18,6 +18,11 @@ import {
 const AllProjects = () => {
   const navigate = useNavigate();
   const [selectedProject, setSelectedProject] = useState(null);
+
+  //Scroll to top when this page loads
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
   const projects = [
     {
