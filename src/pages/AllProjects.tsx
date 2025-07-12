@@ -26,6 +26,32 @@ const AllProjects = () => {
 
   const projects = [
     {
+      image: "/Eatzy.png",
+      title: "Eatzy Home Delivery Website",
+      category: ["UI/UX Design", "Web Design", "Wireframe"],
+      description:
+        "A home delivery website offering fast and convenient access to food, drinks, groceries, pharmacy items, and supermarket essentials with real-time order tracking and an intuitive interface.",
+      fullDescription:
+        "Eatzy is a comprehensive home delivery platform designed to meet daily needs by delivering food & drinks, groceries, pharmacy products, and supermarket items to users' doorsteps. The website features a clean, responsive design with category-based navigation, allowing users to browse and order quickly. Key design elements include a smart search function, real-time order tracking, personalized suggestions, and a smooth checkout experience. The layout is optimized for both desktop and mobile viewing, ensuring accessibility and ease of use. Eatzy focuses on reliability, speed, and a user-centered experience to simplify shopping and delivery for users across various lifestyles.",
+      keyFeatures: [
+        "Multi-category product browsing (food, groceries, pharmacy, etc.)",
+        "Real-time order tracking",
+        "Smart search and filtering system",
+        "Fast and secure checkout process",
+      ],
+      technologies: [
+        "Figma",
+        "UX Research & User Personas",
+        "Wireframing & UI Design",
+        "Interactive Prototyping",
+      ],
+      githubUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/fKYCVTwiaQnkzydf9holWs/Eatzy-website?page-id=0%3A1&node-id=2-11&viewport=390%2C-739%2C0.61&t=Iunv1BeTA7SCq9tH-1&scaling=scale-down&content-scaling=fixed",
+      figmaUrl:
+        "https://www.figma.com/proto/fKYCVTwiaQnkzydf9holWs/Eatzy-website?page-id=0%3A1&node-id=2-11&viewport=390%2C-739%2C0.61&t=Iunv1BeTA7SCq9tH-1&scaling=scale-down&content-scaling=fixed",
+    },
+    {
       image: "/Trendify.png",
       title: "Trendify E-commerce App",
       category: ["UI/UX Design", "App Design", "Wireframe"],
