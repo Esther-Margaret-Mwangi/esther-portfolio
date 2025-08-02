@@ -15,6 +15,31 @@ const Projects = () => {
 
   const projects = [
     {
+      image: "/Collably.png",
+      title: "Collably Influencer-Brand Collaboration Platform",
+      category: ["UI/UX Design", "Web Design", "Wireframe"],
+      description:
+        "A professional platform that connects brands with influencers, allowing seamless posting of campaigns, applications, and collaboration management—tailored exclusively for the creator economy.",
+      detailedDescription:
+        "Collably is a niche platform built to simplify and streamline the collaboration process between brands and influencers. Inspired by marketplaces like Upwork but focused entirely on influencer marketing, Collably enables brands to create campaign listings (deals) specifying their requirements, budget, and deliverables. Influencers can browse these listings, apply directly, and showcase their profiles and media kits. Brands can view all applications, assess influencer analytics, and select the best fit for each campaign. The interface is sleek, responsive, and user-friendly, ensuring a smooth experience across desktop and mobile. With features like in-platform messaging, application tracking, and review systems, Collably fosters trust and transparency between both parties.",
+      keyFeatures: [
+        "Campaign posting for brands with full customization (budget, deliverables, target audience)",
+        "Influencer profiles with engagement metrics and portfolios",
+        "In-app applications and messaging system",
+        "Application review and selection tools for brands",
+        "Responsive and mobile-friendly interface",
+      ],
+      technologies: [
+        "Figma",
+        "UX Research & User Personas",
+        "Wireframing & UI Design",
+        "Interactive Prototyping",
+      ],
+      githubLink: "#",
+      figmaLink:
+        "https://www.figma.com/proto/dOSFTGRQ7OvGEPbLMBE9fc/Collably?page-id=0%3A1&node-id=2-2&viewport=413%2C351%2C0.25&t=5lj4ZABCBYO2OVhf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2",
+    },
+    {
       image: "/Eatzy.png",
       title: "Eatzy Home Delivery Website",
       category: ["UI/UX Design", "Web Design", "Wireframe"],
