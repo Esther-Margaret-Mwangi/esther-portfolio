@@ -26,6 +26,33 @@ const AllProjects = () => {
 
   const projects = [
     {
+      image: "/Collably.png",
+      title: "Collably Influencer-Brand Collaboration Platform",
+      category: ["UI/UX Design", "Web Design", "Wireframe"],
+      description:
+        "A collaboration platform that connects brands and influencers, enabling campaign posting, influencer applications, and seamless project management—built exclusively for the creator economy.",
+      fullDescription:
+        "Collably is a niche collaboration platform designed to connect brands with influencers in a streamlined and efficient way. It allows brands to post detailed campaign listings, specifying goals, deliverables, and budgets. Influencers can then browse, apply, and showcase their profiles with engagement metrics and portfolio samples. Brands can easily review applications, communicate with potential collaborators, and select the best fit for their marketing goals. The platform features a responsive design optimized for both desktop and mobile, in-app messaging, and real-time application tracking to ensure a smooth user experience. Inspired by freelance platforms like Upwork, Collably brings structure, transparency, and ease to influencer marketing collaborations.",
+      keyFeatures: [
+        "Campaign posting for brands with detailed customization options",
+        "Influencer profiles with analytics and media kits",
+        "Application tracking and shortlisting tools",
+        "Built-in messaging system for seamless communication",
+        "Responsive layout for mobile and desktop users",
+      ],
+      technologies: [
+        "Figma",
+        "UX Research & User Personas",
+        "Wireframing & UI Design",
+        "Interactive Prototyping",
+      ],
+      githubUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/dOSFTGRQ7OvGEPbLMBE9fc/Collably?page-id=0%3A1&node-id=2-2&viewport=413%2C351%2C0.25&t=5lj4ZABCBYO2OVhf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2",
+      figmaUrl:
+        "https://www.figma.com/proto/dOSFTGRQ7OvGEPbLMBE9fc/Collably?page-id=0%3A1&node-id=2-2&viewport=413%2C351%2C0.25&t=5lj4ZABCBYO2OVhf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2",
+    },
+    {
       image: "/Eatzy.png",
       title: "Eatzy Home Delivery Website",
       category: ["UI/UX Design", "Web Design", "Wireframe"],
