@@ -156,30 +156,6 @@ const Projects = () => {
       githubLink: "#",
       figmaLink: "#",
     },
-    {
-      image: "/Cremah1.png",
-      title: "Cremah Coffee Mobile App",
-      category: ["UI/UX Design", "App Design", "Wireframe"],
-      description:
-        "Mobile app design for a coffee shop featuring real-time offers, categorized menu items, and a user-friendly shopping experience optimized for fast checkouts.",
-      detailedDescription:
-        "An intuitive e-commerce mobile application crafted for a specialty coffee shop brand. The app features a visually appealing interface with smooth navigation through categories such as cappuccino, latte, espresso, and mocha. Key features include personalized offers, dynamic pricing, product browsing, add-to-cart functionality, and a seamless checkout experience. The design emphasizes accessibility, convenience, and brand consistency to enhance user engagement and drive conversions. The layout is optimized for mobile devices, combining warm color schemes with high-quality imagery to create a cozy, café-like feel. The project includes user authentication, onboarding, and interactive elements to elevate the digital coffee ordering experience.",
-      keyFeatures: [
-        "Real-time promotional offers",
-        "Menu categorization and filtering",
-        "Quick checkout process",
-        "Order tracking and notifications",
-      ],
-      technologies: [
-        "Figma",
-        "UX Research & Competitive Analysis",
-        "User Flow Mapping",
-        "Interactive Prototyping",
-      ],
-      githubLink: "#",
-      figmaLink:
-        "https://www.figma.com/proto/t8tNXWmmnfY9rrG2VxgBkV/Coffee-app?page-id=0%3A1&node-id=2-3&viewport=450%2C10%2C0.17&t=ZbwIpj7WTnh8wbqb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A40",
-    },
   ];
 
   const handleProjectClick = (project) => {
