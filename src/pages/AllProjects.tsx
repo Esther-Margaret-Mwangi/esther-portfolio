@@ -30,7 +30,7 @@ const AllProjects = () => {
       title: "Collably Influencer-Brand Collaboration Platform",
       category: ["UI/UX Design", "Web Design", "Wireframe"],
       description:
-        "A collaboration platform that connects brands and influencers, enabling campaign posting, influencer applications, and seamless project management—built exclusively for the creator economy.",
+        "A collaboration platform that connects brands and influencers, enabling campaign posting, influencer applications, and seamless project management, built exclusively for the creator economy.",
       fullDescription:
         "Collably is a niche collaboration platform designed to connect brands with influencers in a streamlined and efficient way. It allows brands to post detailed campaign listings, specifying goals, deliverables, and budgets. Influencers can then browse, apply, and showcase their profiles with engagement metrics and portfolio samples. Brands can easily review applications, communicate with potential collaborators, and select the best fit for their marketing goals. The platform features a responsive design optimized for both desktop and mobile, in-app messaging, and real-time application tracking to ensure a smooth user experience. Inspired by freelance platforms like Upwork, Collably brings structure, transparency, and ease to influencer marketing collaborations.",
       keyFeatures: [
