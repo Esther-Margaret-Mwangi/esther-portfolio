@@ -39,7 +39,7 @@ const Hero = () => {
               </h1>
 
               <p className="text-gray-600 text-lg max-w-md">
-                I'm a passionate Software Developer and UI/UX Designer with 2+
+                I'm a passionate Software Developer and UI/UX Designer with 3+
                 years in the field, collaborating with various companies and
                 creating innovative solutions.
               </p>
@@ -77,7 +77,7 @@ const Hero = () => {
 
               {/* Floating Tags */}
               <div className="absolute top-4 right-4 bg-green-800 text-white px-3 py-1 rounded-full text-sm">
-                2+ Years Experience
+                3+ Years Experience
               </div>
               <div className="absolute bottom-8 left-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm">
                 UI/UX Designer

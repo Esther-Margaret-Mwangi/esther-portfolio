@@ -24,7 +24,7 @@ const Experience = () => {
 
   const workExperience = [
     {
-      period: "April 2024 - Present",
+      period: "April 2024 - June 2025",
       company: "Ycentre Shambah Solutions",
       position: "Frontend Developer",
       description:
