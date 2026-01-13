@@ -3,6 +3,12 @@ import React from "react";
 const Experience = () => {
   const education = [
     {
+      period: "2025 - 2026",
+      institution: "Moringa School",
+      degree: "Data Science",
+      icon: "🎓",
+    },
+    {
       period: "2021 - 2025",
       institution: "Multimedia University of Kenya",
       degree: "Bachelor of Science in Computer Technology",
